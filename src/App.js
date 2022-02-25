@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ListFromProps from './ListFromProps/ListFromProps';
+import Counter from './Counter/Counter';
+import AddDeleteList from './AddDeleteList/AddDeleteList';
+import FetchData from './FetchData/FetchData';
+import NavigationHeaderReducer from './NavigationHeader/NavigationHeaderReducer';
+import NavigationHeaderContext from './NavigationHeader/NavigationHeaderContext';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/*<ListFromProps />*/}
+            {/*<Counter />*/}
+            {/*<AddDeleteList />*/}
+            {/*<FetchData />*/}
+            {/*<Test />*/}
+            {/*<Test2 />*/}
+            {/*<NavigationHeaderReducer />*/}
+            <NavigationHeaderContext />
+        </div>
+    );
 }
 
 export default App;
