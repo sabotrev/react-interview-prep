@@ -5,6 +5,10 @@ import AddDeleteList from './AddDeleteList/AddDeleteList';
 import FetchData from './FetchData/FetchData';
 import NavigationHeaderReducer from './NavigationHeader/NavigationHeaderReducer';
 import NavigationHeaderContext from './NavigationHeader/NavigationHeaderContext';
+import StarRating from './StarRating/StarRating';
+import TicTacToe from './TicTacToe/TicTacToe';
+import Pagination from './Pagination/Pagination';
+import FilteredEmployeeList from './FilteredEmployeeList/FilteredEmployeeList';
 
 function App() {
     return (
@@ -16,7 +20,11 @@ function App() {
             {/*<Test />*/}
             {/*<Test2 />*/}
             {/*<NavigationHeaderReducer />*/}
-            <NavigationHeaderContext />
+            {/*<NavigationHeaderContext />*/}
+            {/*<StarRating />*/}
+            {/*<TicTacToe />*/}
+            {/*<Pagination />*/}
+            <FilteredEmployeeList />
         </div>
     );
 }
