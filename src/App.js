@@ -9,6 +9,7 @@ import StarRating from './StarRating/StarRating';
 import TicTacToe from './TicTacToe/TicTacToe';
 import Pagination from './Pagination/Pagination';
 import FilteredEmployeeList from './FilteredEmployeeList/FilteredEmployeeList';
+import FormToTable from './FormToTable/FormToTable';
 
 function App() {
     return (
@@ -24,7 +25,8 @@ function App() {
             {/*<StarRating />*/}
             {/*<TicTacToe />*/}
             {/*<Pagination />*/}
-            <FilteredEmployeeList />
+            {/*<FilteredEmployeeList />*/}
+            <FormToTable />
         </div>
     );
 }
