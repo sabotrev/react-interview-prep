@@ -10,6 +10,8 @@ import TicTacToe from './TicTacToe/TicTacToe';
 import Pagination from './Pagination/Pagination';
 import FilteredEmployeeList from './FilteredEmployeeList/FilteredEmployeeList';
 import FormToTable from './FormToTable/FormToTable';
+import Carousel from './Carousel/Carousel';
+import FilterList from './FilterList/FilterList';
 
 function App() {
     return (
@@ -26,7 +28,9 @@ function App() {
             {/*<TicTacToe />*/}
             {/*<Pagination />*/}
             {/*<FilteredEmployeeList />*/}
-            <FormToTable />
+            {/*<FormToTable />*/}
+            {/*<Carousel />*/}
+            <FilterList />
         </div>
     );
 }
